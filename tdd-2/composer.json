@@ -1,0 +1,17 @@
+{
+    "name": "fxcosta/tdd-2",
+    "require": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "fxcosta",
+            "email": "fx3costa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPEuler\\": "src/PHPEuler"
+        }
+    }
+}

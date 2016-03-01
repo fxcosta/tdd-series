@@ -4,7 +4,7 @@ namespace PHPEuler;
 
 class MultipleCalculatorTest extends \PHPUnit_Framework_TestCase
 {
-    public function testSomarMultiplosTresCincoAteDez()
+    public function testMultiplesSumOfThreeAndFiveUpToTen()
     {
         $expected = 23;
         $calculator = new MultipleCalculator();

@@ -4,7 +4,7 @@ namespace PHPEuler;
 
 class GreatestCommonDivisorTest extends \PHPUnit_Framework_TestCase
 {
-    public function testObterMaiorDivisorComumEntreTrintaSeisENoventa()
+    public function testGreatestCommonDivisorBetweenThirtySixAndNinety()
     {
         $expected = 18;
 

@@ -4,12 +4,12 @@ namespace PHPEuler;
 
 class LargestPrimeFactorTest extends \PHPUnit_Framework_TestCase
 {
-    public function testMaiorFatorPrimoCincoSeteTrezeEVinteNove()
+    public function testLargestPrimeFactorThirteenThousandOneHundredNinityFive()
     {
-        $expected = 6857;
+        $expected = 29;
         $calculator = new LargestPrimeFactor();
 
-        $result = $calculator->findLargest(600851475143);
+        $result = $calculator->findLargest(13195);
 
         $this->assertEquals($expected, $result);
     }

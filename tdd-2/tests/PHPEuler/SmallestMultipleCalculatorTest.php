@@ -4,7 +4,7 @@ namespace PHPEuler;
 
 class SmallestMultipleCalculatorTest extends \PHPUnit_Framework_TestCase
 {
-    public function testEncontrarMenorNumeroMultiploDeUmAteDez()
+    public function testSmallestMultipleFromOneToTen()
     {
         $expected = 2520;
         $calculator = new SmallestMultipleCalculator();

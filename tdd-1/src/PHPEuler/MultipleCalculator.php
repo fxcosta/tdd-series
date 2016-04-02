@@ -8,12 +8,20 @@ class MultipleCalculator
     {
         $sum = 0;
 
-        for($i = 0; $i < $limit; $i++) {
-            if($i % 3 == 0 || $i % 5 == 0) {
-                $sum += $i;
-            }
+        for($iterator = 0; $iterator < $limit; $iterator++) {
+            $sum += $this->isDivisible($iterator);
         }
 
         return $sum;
+    }
+
+    /**
+     * @param $number
+     * @return mixed
+     */
+    private function isDivisible($number)
+    {
+        if($number % 3 == 0 || $number % 5 == 0)
+            return $number;
     }
 }
